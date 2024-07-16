@@ -1,0 +1,16 @@
+.avatar{
+    box-sizing: initial; /*com as bordas, o tamanho da imagem diminui, esta propriedade define que o tamanho da imagem tem que ficar igual originalmente com as bordas */
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    
+}
+
+.avatarWithBotder{
+    box-sizing: initial; /*com as bordas, o tamanho da imagem diminui, esta propriedade define que o tamanho da imagem tem que ficar igual originalmente com as bordas */
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--green-500);
+}
